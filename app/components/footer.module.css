@@ -105,6 +105,20 @@
 
   .top {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+  }
+
+  .sectionLinks {
+    align-items: center;
+  }
+
+  .linkGrid {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  .quizBtn {
+    align-self: auto;
+    padding: 10px 28px;
+    margin: 0;
   }
 }

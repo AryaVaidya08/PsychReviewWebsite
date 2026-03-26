@@ -15,7 +15,7 @@ export default function Footer() {
             </div>
           </nav>
           <a href="#quiz-placeholder" className={styles.quizBtn}>
-            Review<br/>Quiz →
+            Review Quiz →
           </a>
         </div>
         <div className={styles.divider} />
