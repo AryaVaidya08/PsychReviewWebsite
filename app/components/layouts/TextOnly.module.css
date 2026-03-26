@@ -1,0 +1,46 @@
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 52px;
+}
+
+.single {
+  max-width: 760px;
+}
+
+.col h3,
+.single h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.65rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 18px;
+  line-height: 1.25;
+}
+
+.col p,
+.single p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgba(13, 13, 13, 0.82);
+  margin-bottom: 14px;
+}
+
+.col p:last-child,
+.single p:last-child {
+  margin-bottom: 0;
+}
+
+.col strong,
+.single strong {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+  .twoCol {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}

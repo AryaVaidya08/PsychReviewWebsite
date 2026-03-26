@@ -1,0 +1,16 @@
+.placeholder {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  border: 2px dashed rgba(26, 39, 68, 0.35);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(26, 39, 68, 0.04);
+  color: rgba(26, 39, 68, 0.35);
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.875rem;
+  font-style: italic;
+  letter-spacing: 0.04em;
+  user-select: none;
+}

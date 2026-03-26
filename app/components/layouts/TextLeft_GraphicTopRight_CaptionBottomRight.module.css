@@ -1,0 +1,58 @@
+.layout {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  gap: 52px;
+  align-items: start;
+}
+
+.text h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.65rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 18px;
+  line-height: 1.25;
+}
+
+.text p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgba(13, 13, 13, 0.82);
+  margin-bottom: 14px;
+}
+
+.text p:last-child {
+  margin-bottom: 0;
+}
+
+.text strong {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.graphicSlot {
+  width: 100%;
+}
+
+.caption {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.82rem;
+  font-style: italic;
+  line-height: 1.55;
+  color: rgba(13, 13, 13, 0.5);
+  padding-left: 2px;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

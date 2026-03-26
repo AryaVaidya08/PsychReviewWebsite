@@ -1,0 +1,53 @@
+.section {
+  padding: 88px 40px;
+}
+
+.light {
+  background-color: var(--color-section-light);
+}
+
+.dark {
+  background-color: var(--color-section-dark);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.heading {
+  margin-bottom: 60px;
+}
+
+.number {
+  color: var(--color-navy);
+  font-weight: 700;
+}
+
+.title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.9rem, 3vw, 2.9rem);
+  font-weight: 400;
+  color: var(--color-text);
+  line-height: 1.15;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 20px;
+  }
+
+  .heading {
+    margin-bottom: 44px;
+  }
+
+  .content {
+    gap: 48px;
+  }
+}
