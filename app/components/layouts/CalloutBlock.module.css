@@ -1,0 +1,40 @@
+.callout {
+  border-left: 4px solid var(--color-navy);
+  background: rgba(26, 39, 68, 0.06);
+  border-radius: 0 4px 4px 0;
+  padding: 28px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--color-navy);
+}
+
+.body {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.3rem, 2.2vw, 1.75rem);
+  font-weight: 500;
+  font-style: italic;
+  color: var(--color-text);
+  line-height: 1.45;
+}
+
+.body p {
+  margin: 0 0 8px;
+}
+
+.body p:last-child {
+  margin-bottom: 0;
+}
+
+.body strong {
+  font-style: normal;
+  font-weight: 700;
+}

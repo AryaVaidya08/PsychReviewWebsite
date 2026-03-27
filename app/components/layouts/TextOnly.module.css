@@ -4,10 +4,6 @@
   gap: 52px;
 }
 
-.single {
-  max-width: 760px;
-}
-
 .col h3,
 .single h3 {
   font-family: 'Cormorant Garamond', Georgia, serif;
