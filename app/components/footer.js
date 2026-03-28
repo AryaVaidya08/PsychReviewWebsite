@@ -14,7 +14,7 @@ export default function Footer() {
               <a href="#section-04" className={styles.link}>0.4</a>
             </div>
           </nav>
-          <a href="#quiz-placeholder" className={styles.quizBtn}>
+          <a href="https://play.blooket.com/play?hwId=69c70de87b80dd29911467fe" target="_blank" className={styles.quizBtn}>
             Review Quiz →
           </a>
         </div>
