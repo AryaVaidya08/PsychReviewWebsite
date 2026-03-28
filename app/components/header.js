@@ -13,6 +13,7 @@ export default function Header() {
           <a href="#section-02" className={styles.navLink}>0.2</a>
           <a href="#section-03" className={styles.navLink}>0.3</a>
           <a href="#section-04" className={styles.navLink}>0.4</a>
+          <a href="https://play.blooket.com/play?hwId=69c70de87b80dd29911467fe" target="_blank" className={styles.quizBtn}>Quiz</a>
         </nav>
       </div>
     </header>

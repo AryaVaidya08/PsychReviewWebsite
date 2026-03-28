@@ -2,7 +2,7 @@ import styles from "./Sources.module.css";
 
 const sources = [
   {
-    label: "Myers' Psychology for AP",
+    label: "Myers' Psychology for AP (AP Psychology Textbook)",
     url: null,
   },
   {
