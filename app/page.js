@@ -98,7 +98,7 @@ export default function Home() {
           col1={
             <>
               <h3>Hindsight Bias</h3>
-              <p>After learning an outcome, individuals have a tendency to believe they would have predicted it. When findings align with common sense, individuals may assume they already understand the concept and fail to question or analyze it more deeply.</p>
+              <p>After learning an outcome, individuals have a tendency to believe they would have predicted it. When findings align with common sense, individuals may assume they already understand the concept and fail to question or analyze it more deeply. It was discovered by Baruch Fischhoff, an American psychologist, in 1975.</p>
             </>
           }
           col2={
@@ -134,7 +134,7 @@ export default function Home() {
         >
           <h3>Confirmation Bias</h3>
           <ul>
-            <li>The tendency to seek out, interpret, and remember information that confirms our pre-existing notions and beliefs, while also ignoring and discounting contradictory evidence</li>
+            <li>The tendency to seek out, interpret, and remember information that confirms our pre-existing notions and beliefs, while also ignoring and discounting contradictory evidence. It was discovered by Peter Wason, an English psychologist, in the 1960s. </li>
           </ul>
           <h3>How is Psychology a Science?</h3>
           <ul>
@@ -596,7 +596,7 @@ export default function Home() {
             },
             {
               title: "Institutional Review Board (IRB)",
-              body: "Committee ensuring ethical standards.",
+              body: "Committee ensuring ethical standards that was created after World War II and the Nuremberg Code.",
             },
             {
               title: "Informed Consent",
