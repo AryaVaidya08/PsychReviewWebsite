@@ -19,6 +19,7 @@
 .cardHeader {
   background-color: var(--color-navy);
   padding: 14px 20px;
+  text-align: center;
 }
 
 .cardTitle {
@@ -32,12 +33,13 @@
 
 .cardBody {
   padding: 18px 20px;
+  text-align: center;
 }
 
 .cardBody p {
-  font-family: 'Outfit', sans-serif;
-  font-size: 0.97rem;
-  line-height: 1.7;
+  font-family: 'Outfit', 'Segoe UI', system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
   color: rgba(13, 13, 13, 0.82);
   margin: 0 0 10px;
 }

@@ -21,15 +21,27 @@ export default function Home() {
       <InfoSection
         id="section-01"
         number="0.1"
-        title="Scientific Attitude, Critical Thinking, and Developing Arguments"
+        title="Scientific Attitude, Critical Thinking, Developing Arguments"
         variant="light"
       >
         <TextOnly>
           <h3>What is Scientific Attitude?</h3>
           <ul>
-            <li>We use evidence and critical thinking to examine assumptions, assess the source, discern hidden bias, evaluate evidence, and assess conclusions</li>
-            <li>Directed, problem-focused thinking for solutions/errors</li>
-            <li>Essential to examining how valid a hypothesis is in meaning of research</li>
+            <li>It is embracing curiosity, skepticism, and humility to use Critical thinking</li>
+            <li>We use evidence and Critical thinking to examine assumptions, assess the source, discern hidden bias, evaluate evidence, and assess conclusions</li>
+            <li>Directed, problem-focused thinking for solutions/errors. Essential to examining how valid a hypothesis is in meaning of research</li>
+            <li>Scientific inquiry can help sift reality from illusion</li>
+          </ul>
+          <h3>Scientific Attitude Components</h3>
+          <ul>
+            <li><strong>Curiosity</strong>: Does it work? Can it be tested and confirmed?</li>
+            <li><strong>Skepticism</strong>: Is it true? How do you know? Cannot believe everything, but also cannot write off everything</li>
+            <li><strong>Humility</strong>: How can I explore deeper? Willingness to follow new ideas as not everything is as predicted. Be surprised and open to beliefs and original perceptions being different.</li>
+          </ul>
+          <h3>Critical Thinking</h3>
+          <ul>
+            <li>Reevaluating and interpreting information deeper to recognize and eliminate bias, better evaluate evidence, question and assess sources, and come to conclusions.</li>
+            <li>Science based answers are better than &ldquo;common sense&rdquo; based answers because of human tendency to have biases.</li>
           </ul>
         </TextOnly>
 
@@ -39,7 +51,7 @@ export default function Home() {
               <h3>Cultural &amp; Cognitive Biases</h3>
               <ul>
                 <li><strong>Cultural norms</strong>: Expectations and rules shared among a group of people that guides accepted behaviors</li>
-                <li><strong>Cognitive biases</strong>: Systematic patterns of thinking errors that affect judgment and decision-making</li>
+                <li><strong>Cognitive biases</strong>: Systematic patterns of thinking errors that affect judgment and decision-making.</li>
                 <li><strong>Confirmation bias</strong>: Tendency to search for or interpret information that confirms one&apos;s beliefs</li>
               </ul>
             </>
@@ -49,7 +61,7 @@ export default function Home() {
               <h3>Research &amp; Thinking Biases</h3>
               <ul>
                 <li><strong>Hindsight bias</strong>: Belief that one &ldquo;knew it all along&rdquo; after learning an outcome</li>
-                <li><strong>Overconfidence</strong>: Overestimating the accuracy of one&apos;s beliefs or judgments</li>
+                <li><strong>Overconfidence</strong>: Overestimating the accuracy of one&apos;s beliefs or judgments.</li>
               </ul>
             </>
           }
@@ -60,7 +72,7 @@ export default function Home() {
       <InfoSection
         id="section-02"
         number="0.2"
-        title="The Need for Psychological Science"
+        title="Need for Psychological Science"
         variant="dark"
       >
         <TextLeft_GraphicRight
@@ -79,26 +91,24 @@ export default function Home() {
             <li>The study of the mind and behavior through the use of research and experimental methods to understand thoughts, emotions, and behaviors</li>
             <li>Base of psychology is observation</li>
           </ul>
-          <h3>Road Blocks to Critical Thinking</h3>
-          <ul>
-            <li>
-              <strong>Hindsight Bias</strong>: After learning an outcome, individuals have a tendency to believe they would have foreseen it—&ldquo;I knew it all along.&rdquo; This bias can lead people to criticize poor, risky decisions while praising successful ones, even when both involve similar uncertainty
-            </li>
-            <li>When findings align with &ldquo;common sense,&rdquo; individuals may assume they already understood the concept and fail to question or analyze it more deeply</li>
-          </ul>
         </TextLeft_GraphicRight>
 
         <TextOnly
           col1={
             <>
-              <h3>Overconfidence</h3>
-              <ul>
-                <li>Overconfidence often results from a tendency to seek out information that confirms existing judgments</li>
-                <li>This inflated sense of certainty can drive quicker thinking, but not necessarily more accurate thinking</li>
-                <li>As a result, individuals may become blind to errors or alternative perspectives, even when their answers are incorrect</li>
-              </ul>
+              <h3>Hindsight Bias</h3>
+              <p>After learning an outcome, individuals have a tendency to believe they would have foreseen it&mdash;&ldquo;I knew it all along.&rdquo; This bias can lead people to criticize poor, risky decisions while praising successful ones, even when both involve similar uncertainty. When findings align with &ldquo;common sense,&rdquo; individuals may assume they already understood the concept and fail to question or analyze it more deeply.</p>
             </>
           }
+          col2={
+            <>
+              <h3>Overconfidence</h3>
+              <p>Overconfidence often results from a tendency to seek out information that confirms existing judgments. This inflated sense of certainty can drive quicker thinking, but not necessarily more accurate thinking. As a result, individuals may become blind to errors or alternative perspectives, even when their answers are incorrect.</p>
+            </>
+          }
+        />
+
+        <TextOnly
           col2={
             <>
               <h3>Perceiving Patterns in Random Events</h3>
@@ -267,11 +277,10 @@ export default function Home() {
               </ul>
               <h3>Theories</h3>
               <ul>
-                <li>Explanations that apply an integrated set of principles — used to organize observations and generate hypotheses</li>
-                <li>Theories can bias observations — we may see what we expect or already believe</li>
+                <li>Explanations that apply an integrated set of principles → used to organize observations and generate hypotheses</li>
+                <li>Theories can bias observations → we may see what we expect or already believe</li>
                 <li>A useful theory: organizes observations clearly, implies predictions that can be tested</li>
-                <li>Strong theories stimulate further research — may be revised to better organize and predict behavior</li>
-                <li>Replication = confirmation of findings across repeated studies</li>
+                <li>Strong theories stimulate further research → may be revised to better organize and predict behavior</li>
               </ul>
             </>
           }
@@ -316,10 +325,10 @@ export default function Home() {
         variant="dark"
       >
         <TextLeft_GraphicTopRight_CaptionBottomRight
-          caption="Correlation coefficient (r) — strength and direction of correlation from −1 to +1. Values near ±1 indicate a strong relationship; values near 0 indicate no relationship."
+          caption=""
           graphic={
             <Image
-              src="/images/0.4_correlation_coefficient.png"
+              src="/images/wallahi.png"
               alt="Chart showing correlation coefficients from strong negative to strong positive"
               width={560}
               height={380}
@@ -329,10 +338,10 @@ export default function Home() {
         >
           <h3>Correlation</h3>
           <ul>
-            <li><strong>Correlation</strong>: Relationship between two variables</li>
-            <li><strong>Correlation coefficient (r)</strong>: Strength/direction of correlation (−1 to +1)</li>
-            <li><strong>Positive correlation</strong>: Both variables increase together</li>
-            <li><strong>Negative correlation</strong>: One increases while the other decreases</li>
+            <li><strong>Correlation</strong>: The relationship between two variables</li>
+            <li><strong>Correlation coefficient (r)</strong>: The strength of the relationship between those two variables. Values range from -1 (negative) to +1 (positive)</li>
+            <li><strong>Positive correlation</strong>: As the independent variable increases, the dependent variable increases as well.</li>
+            <li><strong>Negative correlation</strong>: As the independent variable increases, the dependent variable decreases as well.</li>
           </ul>
         </TextLeft_GraphicTopRight_CaptionBottomRight>
 
@@ -349,13 +358,12 @@ export default function Home() {
         >
           <h3>Scatterplot &amp; Statistical Significance</h3>
           <ul>
-            <li><strong>Scatterplot</strong>: Graph showing relationship between variables</li>
-            <li><strong>Effect size</strong>: Strength of a relationship or difference</li>
+            <li><strong>Scatterplot</strong>: Type of graph that is used to visulize the relationship between two variables</li>
             <li>
-              <strong>Statistical significance</strong>: Likelihood results are not due to chance (p &lt; .05)
+              <strong>Statistical significance</strong>: The likelihood that the results are not because of random chance and are actually related (p &lt; .05)
               <ul>
-                <li>Means there is less than a 5% probability that the results happened by chance</li>
-                <li>Used to determine if results are meaningful and can be trusted</li>
+                <li>Used to determine if results are meaningful</li>
+
               </ul>
             </li>
           </ul>
@@ -375,43 +383,24 @@ export default function Home() {
           <h3>Data &amp; Statistics</h3>
           <ul>
             <li>
-              <strong>Mean</strong>: Average score. Sum of all values divided by number of values
-              <ul>
-                <li>Can be skewed/affected by extreme values (outliers) — can pull the mean up or down</li>
-              </ul>
+              <strong>Mean</strong>: Average value of a dataset.
             </li>
-            <li><strong>Median</strong>: Middle score, separating lower half and higher half</li>
+            <li><strong>Median</strong>: Middle value of a dataset. </li>
             <li>
-              <strong>Mode</strong>: Most frequent score. Value appearing most often in a dataset
-              <ul>
-                <li>A dataset can have one mode, more than one mode, or no mode at all</li>
-              </ul>
+              <strong>Mode</strong>: Most frequent value in a dataset. There can be more than 1 mode.
             </li>
-            <li><strong>Range</strong>: Difference between highest and lowest</li>
+            <li><strong>Range</strong>: Difference between highest and lowest value in a dataset</li>
             <li>
-              <strong>Standard deviation</strong>: Measure of data spread around the mean
-              <ul>
-                <li>Low standard deviation = scores close to the mean (clustered)</li>
-                <li>High standard deviation = scores spread out over a wider range</li>
-              </ul>
+              <strong>Standard deviation</strong>: Measure of data spread around the mean. Low and high standard deviation scores mean that the values are clumped together and spread out, respectively.
             </li>
           </ul>
           <h3>Normal Curve &amp; Percentile Rank</h3>
           <ul>
             <li>
-              <strong>Normal curve / Bell Curve</strong>: Symmetrical bell-shaped distribution
-              <ul>
-                <li>Most scores cluster around the mean, with fewer scores at the extremes</li>
-                <li>Mean, median, and mode are all equal at the center</li>
-              </ul>
+              <strong>Normal curve / Bell Curve</strong>: A perfect distribution where the mean, median, and mode are all equal. 
             </li>
             <li>
-              <strong>68–95–99.7 rule:</strong>
-              <ul>
-                <li>68% of data within 1 standard deviation</li>
-                <li>95% within 2 SD</li>
-                <li>99.7% within 3 SD</li>
-              </ul>
+              <strong>68–95–99.7 rule:</strong> 68% of the data is contained in 1 SD, 95% is in 2 SD, and 99.7% is in 3 SD.
             </li>
             <li><strong>Percentile rank</strong>: Percentage of scores below a given score. 90th percentile = scored higher than 90% of people</li>
           </ul>
@@ -436,17 +425,15 @@ export default function Home() {
           <h3>Skewed Distributions</h3>
           <ul>
             <li>
-              <strong>Positive skew</strong>: Tail extends right; mean &gt; median
+              <strong>Positive skew</strong>: Tail extends right when mean &gt; median.
               <ul>
-                <li>Most scores are low, with a few very high outliers pulling the mean up</li>
-                <li>e.g. income distribution (few very high incomes)</li>
+                <li>Usually occurs when most scores are <u>low</u>, but there are a few <u>high</u> outliers that attracts the mean to the right</li>
               </ul>
             </li>
             <li>
-              <strong>Negative skew</strong>: Tail extends left; mean &lt; median
+              <strong>Negative skew</strong>: Tail extends left when mean &lt; median.
               <ul>
-                <li>Most scores are high, with a few very low outliers pulling the mean down</li>
-                <li>e.g. easy test where most students score high</li>
+                <li>Usually occurs when most scores are <u>high</u>, but there are a few <u>low</u> outliers that attracts the mean to the right</li>
               </ul>
             </li>
           </ul>
@@ -465,12 +452,8 @@ export default function Home() {
         >
           <h3>Bimodal Distribution</h3>
           <ul>
-            <li>Two peaks in data with a dip towards the middle</li>
-          </ul>
-          <h3>Normal Curve</h3>
-          <ul>
-            <li>Symmetrical bell-shaped distribution where mean, median, and mode are all equal at the center</li>
-            <li>Most scores cluster around the mean, with fewer scores at the extremes</li>
+            <li>Occurs when there are two peaks in data and a dip towards the middle of the dataset</li>
+            <li>Ex: Amount of people at resturants with a relation to time (2 peaks: lunch &amp; dinner)</li>
           </ul>
         </GraphicLeft_TextRight>
 
@@ -484,18 +467,15 @@ export default function Home() {
                 <li><strong>Variables</strong>: Any factors that can change in a study</li>
                 <li><strong>Confounding variable</strong>: Outside factors that affect the results</li>
                 <li><strong>Third variable problem</strong>: A hidden variable influences both variables in a correlation</li>
-                <li><strong>Experimental group</strong>: Group exposed to the IV</li>
-                <li><strong>Control group</strong>: Group not exposed to the IV</li>
+                <li><strong>Experimental group</strong>: Group exposed to the independent variable</li>
+                <li><strong>Control group</strong>: Group <u>not</u> exposed to the independent variable</li>
                 <li><strong>Random assignment</strong>: Randomly placing participants into groups</li>
-                <li><strong>Placebo</strong>: Inactive substance or condition</li>
-                <li><strong>Placebo effect</strong>: Improvement due to expectations, not treatment</li>
-                <li><strong>Single-blind procedure</strong>: Participants are unaware of whether they are assigned to the treatment or control (placebo) group; however, researchers know</li>
-                <li><strong>Double-blind procedure</strong>: Neither the participants nor the researchers interacting with them know who is receiving a particular treatment or placebo</li>
+                <li><strong>Placebo</strong>: Fake substance given to participants to usually get a baseline</li>
+                <li><strong>Placebo effect</strong>: Changes in behavior due to the expectation of a change and not an actual change</li>
+                <li><strong>Single-blind procedure</strong>: Participants are unaware of whether they are assigned to the treatment or control group</li>
+                <li><strong>Double-blind procedure</strong>: Neither the participants nor the researchers interacting with them know who is receiving a particular treatment</li>
                 <li>
-                  <strong>Experimenter bias</strong>: Researcher&apos;s expectations influence results
-                  <ul>
-                    <li>Researcher might subconsciously interpret data to support their preconceived hypothesis rather than objectively recording the findings</li>
-                  </ul>
+                  <strong>Experimenter bias</strong>: When researcher&apos;s expectations influence results
                 </li>
               </ul>
             </>
@@ -505,19 +485,20 @@ export default function Home() {
               <h3>Bias in Research</h3>
               <ul>
                 <li>
-                  <strong>Wording Effects</strong>: Question phrasing can influence responses
+                  <strong>Wording Effects/Framing</strong>: The phenomenon where the way the question is phrased can influence responses given by the partipants. 
                   <ul>
-                    <li>Researchers aim to reduce social desirability bias (tendency to give &ldquo;acceptable&rdquo; answers)</li>
-                    <li>Often paired with behavioral measures to reduce self-report bias (inaccurate responses)</li>
+                    <li>
+                      Ex: How fast was the car moving? vs. How fast was the car moving when it crashed?
+                    </li>
                   </ul>
                 </li>
                 <li><strong>Self-report bias</strong>: Inaccurate responses in surveys</li>
-                <li><strong>Social desirability bias</strong>: Responding in a way viewed favorably by others; a tendency to give &ldquo;acceptable answers&rdquo;</li>
+                <li><strong>Social desirability bias</strong>: A tendancy for people to give the socially acceptable answers instead of the truth so others view them in a better light.</li>
               </ul>
               <h3>Survey Tools</h3>
               <ul>
-                <li><strong>Structured interviews</strong>: Standardized questions asked to all participants</li>
-                <li><strong>Likert scales</strong>: Rating scale (e.g., strongly agree → strongly disagree)</li>
+                <li><strong>Structured interviews</strong>: Standardized questions asked to all participants one-on-one (like an interview)</li>
+                <li><strong>Likert scales</strong>: A test used to plot participants responses on a scale. Some examples are: 1-10, strongly agree → strongly disagree, etc. </li>
               </ul>
             </>
           }
@@ -544,7 +525,7 @@ export default function Home() {
             },
             {
               title: "Protection from Harm",
-              body: "Participants must not be harmed in any way, physically or mentally. Participants have the Right to Withdraw.",
+              body: "Participants must not be harmed in any way, physically or mentally. Participants also have the right to withdraw from the experiment at any time.",
             },
             {
               title: "Confidentiality",
@@ -560,7 +541,7 @@ export default function Home() {
             },
             {
               title: "Confederates",
-              body: "Actors working alongside researchers in a study — they are not participants.",
+              body: "Actors working alongside researchers in a study",
             },
           ]}
         />
