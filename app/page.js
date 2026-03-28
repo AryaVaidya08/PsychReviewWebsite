@@ -9,6 +9,7 @@ import GraphicLeft_TextRight from "./components/layouts/GraphicLeft_TextRight";
 import TextOnly from "./components/layouts/TextOnly";
 import TextLeft_GraphicTopRight_CaptionBottomRight from "./components/layouts/TextLeft_GraphicTopRight_CaptionBottomRight";
 import CardGrid from "./components/layouts/CardGrid";
+import Sources from "./components/Sources";
 
 export default function Home() {
   return (
@@ -629,6 +630,7 @@ export default function Home() {
         />
       </InfoSection>
 
+      <Sources />
       <Footer />
     </main>
   );
