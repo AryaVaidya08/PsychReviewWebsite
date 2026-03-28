@@ -29,7 +29,7 @@ export default function Home() {
           <ul>
             <li>It is embracing curiosity, skepticism, and humility to use Critical thinking</li>
             <li>We use evidence and Critical thinking to examine assumptions, assess the source, discern hidden bias, evaluate evidence, and assess conclusions</li>
-            <li>Directed, problem-focused thinking for solutions/errors. Essential to examining how valid a hypothesis is in meaning of research</li>
+            <li>Directed, problem-focused thinking for solutions/errors. Essential to examining how valid a hypothesis is in the meaning of research</li>
             <li>Scientific inquiry can help sift reality from illusion</li>
           </ul>
           <h3>Scientific Attitude Components</h3>
@@ -41,7 +41,7 @@ export default function Home() {
           <h3>Critical Thinking</h3>
           <ul>
             <li>Reevaluating and interpreting information deeper to recognize and eliminate bias, better evaluate evidence, question and assess sources, and come to conclusions.</li>
-            <li>Science based answers are better than &ldquo;common sense&rdquo; based answers because of human tendency to have biases.</li>
+            <li>Science-based answers are better than &ldquo;common sense&rdquo; based answers because of the human tendency to have biases.</li>
           </ul>
         </TextOnly>
 
@@ -50,7 +50,7 @@ export default function Home() {
             <>
               <h3>Cultural &amp; Cognitive Biases</h3>
               <ul>
-                <li><strong>Cultural norms</strong>: Expectations and rules shared among a group of people that guides accepted behaviors</li>
+                <li><strong>Cultural norms</strong>: Expectations and rules shared among a group of people that guide accepted behaviors</li>
                 <li><strong>Cognitive biases</strong>: Systematic patterns of thinking errors that affect judgment and decision-making.</li>
                 <li><strong>Confirmation bias</strong>: Tendency to search for or interpret information that confirms one&apos;s beliefs</li>
               </ul>
@@ -89,7 +89,7 @@ export default function Home() {
           <h3>Psychology</h3>
           <ul>
             <li>The study of the mind and behavior through the use of research and experimental methods to understand thoughts, emotions, and behaviors</li>
-            <li>Base of psychology is observation</li>
+            <li>The base of psychology is observation</li>
           </ul>
         </TextLeft_GraphicRight>
 
@@ -97,7 +97,7 @@ export default function Home() {
           col1={
             <>
               <h3>Hindsight Bias</h3>
-              <p>After learning an outcome, individuals have a tendency to believe they would have foreseen it&mdash;&ldquo;I knew it all along.&rdquo; This bias can lead people to criticize poor, risky decisions while praising successful ones, even when both involve similar uncertainty. When findings align with &ldquo;common sense,&rdquo; individuals may assume they already understood the concept and fail to question or analyze it more deeply.</p>
+              <p>After learning an outcome, individuals have a tendency to believe they would have predicted it. When findings align with common sense, individuals may assume they already understand the concept and fail to question or analyze it more deeply.</p>
             </>
           }
           col2={
@@ -133,7 +133,7 @@ export default function Home() {
         >
           <h3>Confirmation Bias</h3>
           <ul>
-            <li>The tendency to seek out, interpret, and remember information that confirms our pre-existing notions and beliefs while also ignoring and discounting contradictory evidence</li>
+            <li>The tendency to seek out, interpret, and remember information that confirms our pre-existing notions and beliefs, while also ignoring and discounting contradictory evidence</li>
           </ul>
           <h3>How is Psychology a Science?</h3>
           <ul>
@@ -167,70 +167,73 @@ export default function Home() {
         <TextLeft_GraphicRight
           graphic={
             <Image
-              src="/images/0.3_scientific_method.png"
-              alt="Diagram of the scientific method steps"
-              width={1160}
-              height={500}
-              style={{ width: "auto", height: "auto", borderRadius: "4px" }}
+              src="/images/0.3_null_hypothesis.jpeg"
+              alt="Table showing Type I and Type II errors for null hypothesis outcomes"
+              width={560}
+              height={400}
+              style={{ width: "100%", height: "auto", borderRadius: "4px" }}
             />
           }
         >
           <h3>Core Concepts</h3>
           <ul>
-            <li><strong>Hypothesis</strong>: testable explanation or prediction for a specific phenomenon</li>
-            <li><strong>Falsifiability</strong>: your hypothesis can be proven true or false</li>
-            <li><strong>Operational Definition</strong>: specifies how a concept or term is going to be defined or measured in practice in clear instructions</li>
+            <li><strong>Hypothesis</strong>: A clear, testable educated prediction that tries to explain or predict why something happens. </li>
+            <li><strong>Falsifiability</strong>: The requirement that your hypotheses need to be able to be proven wrong. </li>
+            <li><strong>Operational Definition</strong>: A precise description of how a concept or variable will be defined and/or measured during an experiment or study.</li>
             <li>
-              <strong>Null Hypothesis (H₀)</strong>: States that there is no relationship or difference between variables
-              <ul>
-                <li>Default stance when doing statistical testing</li>
-                <li>e.g. &ldquo;There is no significant relationship between caffeine consumption and academic performance.&rdquo;</li>
-              </ul>
+              <strong>Null Hypothesis (H₀)</strong>: A type of hypothesis that assumes there is <u>no</u> relationship between the variables.
             </li>
             <li>
-              <strong>Alternative Hypothesis (Hₐ)</strong>: Predicts that a relationship or effect does exist between the variables
-              <ul>
-                <li>Tested against the null hypothesis</li>
-              </ul>
+              <strong>Alternative Hypothesis (H<sub>a</sub>)</strong>: A type of hypothesis that assumes there <u>is</u> a relationship between the variables.
             </li>
           </ul>
         </TextLeft_GraphicRight>
 
-        <TextOnly
-          col1={
-            <>
-              <h3>Reliability &amp; Validity</h3>
-              <ul>
-                <li>
-                  <strong>Reliability</strong>: Consistently getting the same result when doing something multiple times
-                  <ul>
-                    <li>If a study is reliable, it should give similar results every time it is repeated</li>
-                    <li>Replication is confirmation</li>
-                  </ul>
-                </li>
-                <li>
-                  <strong>Validity</strong>: Testing how true or accurate something actually is
-                  <ul>
-                    <li>A study can be reliable but not valid (consistent but wrong)</li>
-                  </ul>
-                </li>
-              </ul>
-            </>
-          }
-          col2={
-            <>
-              <h3>Generalizability &amp; Sampling Basics</h3>
-              <ul>
-                <li><strong>Generalizability</strong>: How well the results from a sample can be applied to the larger population. If your sample is good, you can confidently generalize your results</li>
-                <li><strong>Population</strong>: The entire group of people you want to study. Example: all students in the U.S., all humans, all students at Darnell Cookman</li>
-                <li><strong>Sample</strong>: A smaller group taken from the population. Example: one class, one school, one city</li>
-                <li><strong>Sampling</strong>: The process of choosing people from the population to be in your sample</li>
-              </ul>
-            </>
-          }
-        />
-
         <GraphicLeft_TextRight
+          graphic={
+            <Image
+              src="/images/0.3_scientific_method.png"
+              alt="Diagram of the scientific method steps"
+              width={1160}
+              height={500}
+              style={{ width: "100%", height: "auto", borderRadius: "4px" }}
+            />
+          }
+        >
+          <h3>Reliability &amp; Validity</h3>
+          <ul>
+            <li>
+              <strong>Reliability</strong>: A measure of how reproducible the results are of the experiment/study. If a study is reliable, many different researchers should be able to get similar results during each test.
+              <ul>
+                <li><strong>Test-Retest</strong>: Consistency over time and throughout tests</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Validity</strong>: A measure of how much the results actually measure what they are supposed to.
+              <ul>
+                <li><strong>Content validity</strong>: Measures how accurate the content is</li>
+              </ul>
+            </li>
+          </ul>
+        </GraphicLeft_TextRight>
+
+        <TextOnly>
+          <h3>Generalizability &amp; Sampling Basics</h3>
+          <ul>
+            <li>
+              <strong>Generalizability</strong>: How well the results from a sample can be applied to the larger population within an experiment/study.
+            </li>
+            <li>
+              <strong>Population</strong>: The entire group of people you want to study.
+            </li>
+            <li>
+              <strong>Sample</strong>: A smaller group taken from a proportion of the population. Should be representative of the whole population so we can generalize the results.
+            </li>
+            <li><strong>Sampling</strong>: The act of selecting people from our population to be in our sample</li>
+          </ul>
+        </TextOnly>
+
+        <TextLeft_GraphicRight
           graphic={
             <Image
               src="/images/0.3_representative_sampling.png"
@@ -243,28 +246,93 @@ export default function Home() {
         >
           <h3>Sampling Methods &amp; Issues</h3>
           <ul>
-            <li><strong>Sampling Bias</strong>: When the sample is chosen in a way that does NOT represent the population. Happens when researchers pick people based on what they want instead of accuracy. Example: only surveying athletes about school stress</li>
-            <li><strong>Convenience Sampling</strong>: Choosing people who are easiest or closest to you. Example: surveying your friends or your own class</li>
-            <li><strong>Representative Sampling</strong>: A sample that matches the population&apos;s key characteristics (age, gender, race, etc.). This makes your results more accurate</li>
-            <li><strong>Random Sampling</strong>: Everyone in the population has an equal chance of being chosen. No one is specifically picked</li>
-            <li>Representative sampling helps ensure your data actually reflects the population, making your conclusions more accurate and trustworthy</li>
+            <li>
+              <strong>Sampling Bias</strong>: An error in our sampling where our sample is not representative of the population, compromising the study&apos;s external validity (generalizability)
+              <ul>
+                <li>E.g. Surveying just student athletes about how stressed they feel</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Convenience Sampling</strong>: Choosing the sample based on their availability and convenience; not random at all and compromises external validity
+              <ul>
+                <li>E.g. Choosing your friends or just your class to be in your sample</li>
+              </ul>
+            </li>
+            <li><strong>Representative Sampling</strong>: A sample/group that closely matches the characteristics of its population as a whole (age, gender, race, etc.)</li>
           </ul>
-        </GraphicLeft_TextRight>
+        </TextLeft_GraphicRight>
+
+        <TextOnly>
+          <h3>Random Sampling</h3>
+          <ul>
+            <li>A technique in which each person is equally likely to be selected</li>
+            <li><strong>Simple Random Sampling</strong>: Everyone has an equal probability of being selected (e.g. drawing names from a hat)</li>
+            <li><strong>Stratified Random Sampling</strong>: Population is divided into smaller groups (strata) based on specified characteristics (gender, age); then members are randomly selected from each group</li>
+            <li>
+              <strong>Systematic Sampling</strong>: Selecting every n&#8209;th person from a list
+              <ul>
+                <li>E.g. Every 10th person on a graduation list.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Cluster Sampling</strong>: First, start by dividing the population into smaller clusters (schools, cities, or clinics), then randomly select entire clusters for the study
+              <ul>
+                <li>Higher chance of sampling error because individuals in a cluster tend to be more similar</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Why is representative sampling important?</strong>
+              <ul>
+                <li>It helps ensure that your data actually reflects the population</li>
+                <li>This makes your conclusions more accurate and trustworthy, and ensures that our results can be generalized to the entire population</li>
+              </ul>
+            </li>
+          </ul>
+        </TextOnly>
 
         <TextOnly
           col1={
             <>
               <h3>Types of Data</h3>
               <ul>
-                <li><strong>Qualitative Data</strong>: Non-numerical, descriptive data. Example: opinions, feelings, descriptions</li>
-                <li><strong>Quantitative Data</strong>: Numerical data that can be measured. Example: scores, percentages, statistics</li>
+                <li>
+                  <strong>Qualitative Data</strong>
+                  <ul>
+                    <li>Descriptive data that is non-numerical.</li>
+                    <li>E.g. opinions, feelings, written observations.</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Quantitative Data</strong>
+                  <ul>
+                    <li>Numerical data that can be measured</li>
+                    <li>E.g. scores, percentages, statistics</li>
+                  </ul>
+                </li>
               </ul>
               <h3>Surveys &amp; Bias</h3>
               <ul>
-                <li><strong>Pros of Surveys</strong>: Quick, efficient, and can collect a lot of data from many people</li>
-                <li><strong>Cons of Surveys</strong>: You can&apos;t always tell if people are telling the truth or taking it seriously</li>
-                <li><strong>Self-Report Bias</strong>: When people give inaccurate answers about themselves, often to look better or avoid embarrassment</li>
-                <li><strong>Social Desirability Bias</strong>: When people answer in a way they think is more acceptable or &ldquo;correct.&rdquo; Example: saying you study more than you actually do</li>
+                <li>
+                  <strong>Pros of Surveys</strong>
+                  <ul>
+                    <li>Surveys can be quick and efficient and sent to large, random samples &#8594; ensures generalizability and is very low-cost</li>
+                    <li>It is a good way of collecting both quantitative and qualitative data</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Cons of Surveys</strong>
+                  <ul>
+                    <li>Many people may not respond, and some may not comprehend the question in the right way</li>
+                    <li>Many might answer untruthfully or just incorrectly</li>
+                  </ul>
+                </li>
+                <li><strong>Self-Report Bias</strong>: When people give wrong answers about themselves or the subject</li>
+                <li>
+                  <strong>Social Desirability Bias</strong>: When people answer in a way they think is more socially acceptable or &ldquo;correct&rdquo;, especially if they don&apos;t want to look bad in front of the researcher
+                  <ul>
+                    <li>E.g. You say you study more than you actually do</li>
+                  </ul>
+                </li>
               </ul>
             </>
           }
@@ -272,15 +340,31 @@ export default function Home() {
             <>
               <h3>Scientific Process &amp; Validation</h3>
               <ul>
-                <li><strong>Peer Review</strong>: Other experts in the same field examine your study before it is accepted. Helps check for mistakes and improve accuracy</li>
-                <li><strong>Replication</strong>: When another researcher repeats your study and gets the same results. If the same results happen again, it proves the findings are reliable and not just by chance</li>
+                <li>
+                  <strong>Peer Review</strong>: A quality control process used by publications to help ensure that only high-quality and methodologically sound information is published
+                  <ul>
+                    <li>Helps check for mistakes, improves accuracy, and makes sure all publications conform to set standards/guidelines</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Replication</strong>: Repeating your study and getting the same results, validating and verifying your findings
+                  <ul>
+                    <li><strong>Why is replication important?</strong> When the same results happen again and again, it proves that the findings are reliable and not by chance</li>
+                  </ul>
+                </li>
               </ul>
               <h3>Theories</h3>
               <ul>
-                <li>Explanations that apply an integrated set of principles → used to organize observations and generate hypotheses</li>
-                <li>Theories can bias observations → we may see what we expect or already believe</li>
-                <li>A useful theory: organizes observations clearly, implies predictions that can be tested</li>
-                <li>Strong theories stimulate further research → may be revised to better organize and predict behavior</li>
+                <li>Explanations that apply an integrated set of principles &#8594; used to organize observations and generate hypotheses</li>
+                <li>Theories can bias observations &#8594; we may see what we expect or already believe</li>
+                <li>
+                  A useful theory:
+                  <ul>
+                    <li>Organizes observations clearly</li>
+                    <li>Implies predictions that can be tested</li>
+                  </ul>
+                </li>
+                <li>Strong theories stimulate further research &#8594; may be revised to better organize and predict behavior</li>
               </ul>
             </>
           }
@@ -290,20 +374,20 @@ export default function Home() {
           columns={3}
           cards={[
             {
-              title: "Experimental",
-              body: "Designed to test a hypothesis to establish a cause and effect relationship between a dependent and independent variable using a controlled scientific environment. Requires random assignment.",
+              title: "Experimental Methodologies",
+              body: "Designed to test a hypothesis to establish a cause and effect relationship between a dependent and an independent variable using a controlled scientific environment.",
             },
             {
-              title: "Non-Experimental",
-              body: "Used for research when controlled experimenting would be impossible or unethical. Just meant to describe behavior and cannot establish cause and effect relationship between variables.",
+              title: "Non Experimental Methodologies",
+              body: "Used for research when controlled experimentation would be impossible or unethical. Used to describe behavior and cannot establish cause and effect relationship between variables.",
             },
             {
               title: "Case Study",
-              body: "Focused examination of a specific person, group, event, or situation for unique detailed insight on a topic.",
+              body: "Focused examination of a specific person, group, event, or situation for unique detailed insight on a topic. However, it may not be generalizable because of its specific focus.",
             },
             {
               title: "Correlational Study",
-              body: "Determines the relationship and strength between two variables.",
+              body: "Describes the relationship and strength of the relationship between two variables.",
             },
             {
               title: "Meta-analysis",
@@ -311,7 +395,7 @@ export default function Home() {
             },
             {
               title: "Naturalistic Observation",
-              body: "Gathering data by observing individuals in natural environments and a real world setting.",
+              body: "Gathering data by observing individuals in natural environments and a real-world setting without meddling.",
             },
           ]}
         />
@@ -360,7 +444,7 @@ export default function Home() {
           <ul>
             <li><strong>Scatterplot</strong>: Type of graph that is used to visulize the relationship between two variables</li>
             <li>
-              <strong>Statistical significance</strong>: The likelihood that the results are not because of random chance and are actually related (p &lt; .05)
+              <strong>Statistical significance</strong>: The likelihood that the results are not due to random chance and are actually related (p &lt; .05)
               <ul>
                 <li>Used to determine if results are meaningful</li>
 
@@ -389,7 +473,7 @@ export default function Home() {
             <li>
               <strong>Mode</strong>: Most frequent value in a dataset. There can be more than 1 mode.
             </li>
-            <li><strong>Range</strong>: Difference between highest and lowest value in a dataset</li>
+            <li><strong>Range</strong>: Difference between the highest and lowest value in a dataset</li>
             <li>
               <strong>Standard deviation</strong>: Measure of data spread around the mean. Low and high standard deviation scores mean that the values are clumped together and spread out, respectively.
             </li>
@@ -427,13 +511,13 @@ export default function Home() {
             <li>
               <strong>Positive skew</strong>: Tail extends right when mean &gt; median.
               <ul>
-                <li>Usually occurs when most scores are <u>low</u>, but there are a few <u>high</u> outliers that attracts the mean to the right</li>
+                <li>Usually occurs when most scores are <u>low</u>, but there are a few <u>high</u> outliers that attract the mean to the right</li>
               </ul>
             </li>
             <li>
               <strong>Negative skew</strong>: Tail extends left when mean &lt; median.
               <ul>
-                <li>Usually occurs when most scores are <u>high</u>, but there are a few <u>low</u> outliers that attracts the mean to the right</li>
+                <li>Usually occurs when most scores are <u>high</u>, but there are a few <u>low</u> outliers that attract the mean to the right</li>
               </ul>
             </li>
           </ul>
@@ -452,8 +536,8 @@ export default function Home() {
         >
           <h3>Bimodal Distribution</h3>
           <ul>
-            <li>Occurs when there are two peaks in data and a dip towards the middle of the dataset</li>
-            <li>Ex: Amount of people at resturants with a relation to time (2 peaks: lunch &amp; dinner)</li>
+            <li>Occurs when there are two peaks in the data and a dip towards the middle of the dataset</li>
+            <li>Ex: Amount of people at restaurants with a relation to time (2 peaks: lunch &amp; dinner)</li>
           </ul>
         </GraphicLeft_TextRight>
 
@@ -474,9 +558,7 @@ export default function Home() {
                 <li><strong>Placebo effect</strong>: Changes in behavior due to the expectation of a change and not an actual change</li>
                 <li><strong>Single-blind procedure</strong>: Participants are unaware of whether they are assigned to the treatment or control group</li>
                 <li><strong>Double-blind procedure</strong>: Neither the participants nor the researchers interacting with them know who is receiving a particular treatment</li>
-                <li>
-                  <strong>Experimenter bias</strong>: When researcher&apos;s expectations influence results
-                </li>
+                <li><strong>Experimenter bias</strong>: When a researcher&apos;s expectations influence results</li>
               </ul>
             </>
           }
@@ -485,7 +567,7 @@ export default function Home() {
               <h3>Bias in Research</h3>
               <ul>
                 <li>
-                  <strong>Wording Effects/Framing</strong>: The phenomenon where the way the question is phrased can influence responses given by the partipants. 
+                  <strong>Wording Effects/Framing</strong>: The phenomenon where the way the question is phrased can influence responses given by the participants. 
                   <ul>
                     <li>
                       Ex: How fast was the car moving? vs. How fast was the car moving when it crashed?
@@ -493,12 +575,12 @@ export default function Home() {
                   </ul>
                 </li>
                 <li><strong>Self-report bias</strong>: Inaccurate responses in surveys</li>
-                <li><strong>Social desirability bias</strong>: A tendancy for people to give the socially acceptable answers instead of the truth so others view them in a better light.</li>
+                <li><strong>Social desirability bias</strong>: A tendency for people to give the socially acceptable answers instead of the truth so others view them in a better light.</li>
               </ul>
               <h3>Survey Tools</h3>
               <ul>
                 <li><strong>Structured interviews</strong>: Standardized questions asked to all participants one-on-one (like an interview)</li>
-                <li><strong>Likert scales</strong>: A test used to plot participants responses on a scale. Some examples are: 1-10, strongly agree → strongly disagree, etc. </li>
+                <li><strong>Likert scales</strong>: A test used to plot participants' responses on a scale. Some examples are: 1-10, strongly agree → strongly disagree, etc. </li>
               </ul>
             </>
           }
@@ -537,7 +619,7 @@ export default function Home() {
             },
             {
               title: "Debriefing",
-              body: "Conversation after the experiment where researchers explain the true purpose, reveal any deception used, and address misconceptions.",
+              body: "A conversation after the experiment where researchers explain the true purpose, reveal any deception used, and address misconceptions.",
             },
             {
               title: "Confederates",
