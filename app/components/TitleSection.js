@@ -7,7 +7,7 @@ export default function TitleSection() {
       <div className={styles.overlay} />
       <div className={styles.content}>
         <h1 className={styles.title}>Research Methods Review (0.1 – 0.4)</h1>
-        <p className={styles.byline}>By: Arya, Vikram, Pranet, Charlye, &amp; Ayaan</p>
+        <p className={styles.byline}>By: Arya, Vikram, Pranet, Charlye, &amp; Ayyan</p>
       </div>
       <ScrollArrow />
     </section>

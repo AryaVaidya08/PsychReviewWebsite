@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
         <div className={styles.divider} />
         <p className={styles.credits}>
-          Created by: Arya, Vikram, Pranet, Charlye, &amp; Ayaan &nbsp;|&nbsp; AP Psych Period 8 - Fischer 
+          Created by: Arya, Vikram, Pranet, Charlye, &amp; Ayyan &nbsp;|&nbsp; AP Psych Period 8 - Fischer 
         </p>
       </div>
     </footer>
