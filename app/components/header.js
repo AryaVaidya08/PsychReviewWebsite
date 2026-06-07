@@ -9,11 +9,7 @@ export default function Header() {
           <span className={styles.brandText}>AP Psych Review 0.1 – 0.4</span>
         </a>
         <nav className={styles.nav}>
-          <a href="#section-01" className={styles.navLink}>0.1</a>
-          <a href="#section-02" className={styles.navLink}>0.2</a>
-          <a href="#section-03" className={styles.navLink}>0.3</a>
-          <a href="#section-04" className={styles.navLink}>0.4</a>
-          <a href="https://play.blooket.com/play?hwId=69c70de87b80dd29911467fe" target="_blank" className={styles.quizBtn}>Quiz</a>
+          <a href="https://play.blooket.com/play?hwId=69c70de87b80dd29911467fe" target="_blank" className={styles.quizBtn}>Quiz →</a>
         </nav>
       </div>
     </header>
